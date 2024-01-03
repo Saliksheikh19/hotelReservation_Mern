@@ -1,0 +1,57 @@
+.header {
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0px 15px;
+}
+
+.headerWrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 90px 0px;
+}
+
+.listMode {
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.headerListItems {
+    padding: 5px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+
+.headerListItems:hover {
+    background-color: #07469e;
+}
+
+.active {
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #07469e;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerTitle {
+    font-size: 48px;
+}
+
+.headerDesc {
+    font-size: 24px;
+}

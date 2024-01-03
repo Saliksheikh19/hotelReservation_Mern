@@ -1,0 +1,33 @@
+.homeContainer {
+    /* max-width: 1024px; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 100px;
+    /* border: 1px solid red; */
+}
+
+.featuredItemsList {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    /* flex-wrap: wrap; */
+}
+
+.homeGuestLove,
+.featuredDestinations,
+.propertyType {
+    align-self: flex-start;
+}
+
+.topRatedHomesList, .propertyTypeList {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* overflow-x: scroll; */
+}
